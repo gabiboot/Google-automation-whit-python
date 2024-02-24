@@ -33,30 +33,3 @@ word7 = "far?"
 print(word1 + " " + word2 + " " + word3 + " " + word4 + " " + word5 + " " + word6 + " " + word7)
 
 
-#------------------------------------------------------------#
-
-def greeting(name):
-    print("Welcome, " + name)
-result = greeting("Christine")
-print(result)
-
-#------------------------------------------------------------#
-
-def lucky_number(name):
-    number = len(name) * 9
-    print("Hello " + name + ". Your lucky number is " + str(number))
-
-lucky_number("Kay")
-lucky_number("Cameron")
-
-#-----------------------------------------------------------#
-def circle_area(radius):
-    pi = 3.14
-    area = pi * (radius ** 2)
-    print(area)
-
-circle_area(5)
-#Output is 78.5
-
-#-----------------------------------------------------------#
-
